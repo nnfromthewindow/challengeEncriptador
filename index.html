@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <title>Encriptador/Desencriptador de texto</title>
+  </head>
+  <body class="body">
+    <h1 id="titulo">CODIGO SECRETO</h1>
+
+    <div class="container">
+      <button id="btnEnc" class="selectInput">Encriptar</button>
+      <input type="text" id="inputCodigo" class="selectInput" />
+      <button id="btnDec" class="selectInput">Desencriptar</button>
+
+      <div class="child">
+        <input t="textbox" readonly id="outputCodigo" class="child" />
+      </div>
+    </div>
+    <div class="copyclass">
+      <button id="copy" class="copyclass">Copiar</button>
+    </div>
+    <h5 id="capsOn">
+      CapsLock ACTIVADO, desactívelo,solo acepta letras minusculas
+    </h5>
+
+    <footer>
+      <h5 id="devmsg">Sitio desarrollado por Nicolás Nuccelli</h5>
+    </footer>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
