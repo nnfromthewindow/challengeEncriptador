@@ -1,7 +1,7 @@
 .body {
   background-image: url(fondo.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 .selectInput {
@@ -10,13 +10,15 @@
 
 .container {
   width: fit-content;
-  margin: auto;
+  margin: 0 auto;
+  text-align: center;
 }
 .child {
   font-size: 25px;
   width: fit-content;
   margin-top: 1%;
-  margin-left: 13%;
+  margin: 0 auto;
+  margin-top: 2%;
 }
 
 #titulo {
@@ -29,9 +31,11 @@
   color: antiquewhite;
   background-color: rgb(100, 121, 94, 0.5);
   font-size: 7vh;
+  transition: 2s;
 }
 
 #titulo:hover {
+  transition: 2s;
   background: #f0c27b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -69,6 +73,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(197, 154, 12));
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: 2s;
+}
+#devmsg:hover {
+  text-shadow: 0px 0px 5px rgb(221, 190, 90);
 }
